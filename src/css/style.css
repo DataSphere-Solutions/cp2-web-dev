@@ -25,9 +25,15 @@ h1 {
     justify-content: center;
 }
 
+h2 {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
 #dados {
     font-size: 30px;
-    padding: 10%;
+    padding: 5%;
     display: flex;
     justify-content: center;
 }
