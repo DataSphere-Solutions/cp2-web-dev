@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Chamando CSS Externo-->
+    <link rel="shortcut icon" href="./src/assets/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Bikecity</title>
 </head>
@@ -13,10 +14,15 @@
     <!--Criando cabeçalho e menu de navegação-->
     <header>
         <nav>
-            <ul>
+            <!--Botão do Menu Hamburguer-->
+            <button id="btnMob">Menu
+                <span id="hamburg"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Contato</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="./login.html">Login</a></li>
                 <li><a href="#">Quiz</a></li>
             </ul>
         </nav>
