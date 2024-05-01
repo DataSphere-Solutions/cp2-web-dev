@@ -63,7 +63,7 @@ section#banner {
 }
 
 section#portifolio {
-    height: 150vh;
+    height: 100vh;
 }
 
 #imgBanner {
@@ -77,8 +77,12 @@ section#portifolio {
 }
 
 #portifolio h2 {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-size: 100px;
+    font-weight: 400;
+    color: black;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .card {
@@ -97,6 +101,30 @@ section#portifolio {
 
 .card img {
     height: 100px;
+    width: 100px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card button {
+    margin-top: 50px;
+    background-color: bisque;
+    border-radius: 10%;
+    cursor: pointer;
+    width: 90px;
+    height: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+.card button:hover {
+    width: 100px;
+    height: 60px;
+    font-size: 15px;
 }
 
 footer {
