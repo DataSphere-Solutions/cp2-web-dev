@@ -1,4 +1,4 @@
-window.alert('Seja bem-vindo')
+// window.alert('Seja bem-vindo')
 
 // SlideShow Automático
 let imagens=['./src/assets/img/bike1.png','./src/assets/img/bike2.jpg','/src/assets/img/bike3.jpg', '/src/assets/img/bike4.jpg'];

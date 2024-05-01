@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -18,6 +20,14 @@ header {
     background: transparent;
 }
 
+header h1 {
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-size: 80px;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+
 #logo {
     margin-left: 20px;
     margin-top: 10px;
@@ -31,6 +41,7 @@ header {
 }
 
 #menu a {
+    font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
     padding: 10px;
@@ -46,19 +57,46 @@ header {
     display: none;
 }
 
-section {
+section#banner {
     width: 100%;
-    height: 100vh;
+    height: 75vh;
+}
+
+section#portifolio {
+    height: 150vh;
 }
 
 #imgBanner {
     display: flex;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 10%;
     width: 70%;
     height: 450px;
     border-radius: 20px;
     box-shadow: 1px 1px black;
+}
+
+#portifolio h2 {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.card {
+    width: 250px;
+    height: 520px;
+    display: inline-block;
+    background-color: burlywood;
+    margin-top: 70px;
+    margin-left: 10%;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    margin-left: 300px;
+}
+
+.card img {
+    height: 100px;
 }
 
 footer {
