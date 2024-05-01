@@ -4,11 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Login</title>
 </head>
 
 <body>
+    <h1>Login</h1>
+    <div id="dados">
+        <label for="user">Usuário: </label>
+        <input type="text" id="user">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+    </div>
 
+    <div id="confirmacao">
+        <button id="entrar" onclick="validar()">Entrar</button>
+    </div>
+
+
+    <script src="./src/js/login.js"></script>
 </body>
 
 </html>
