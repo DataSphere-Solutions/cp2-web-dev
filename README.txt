@@ -7,7 +7,7 @@ Artur Alves Tenca - RM 555171
 Giuliana Lucas - RM 557597
 Ian Monteiro Moreira - RM 558652
 Igor Brunelli Ralo - RM 555035
-Matheus Estevão - RM 558193
+MatheusAlcantara Estevão - RM 558193
 ---------------
 
 Projeto hospedado no Github Pages: https://datasphere-solutions.github.io/cp2-web-dev/
